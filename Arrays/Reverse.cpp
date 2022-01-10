@@ -2,16 +2,16 @@
 
 using namespace std;
 
-void reversearray( int arr[], int s, int e){
+void reversearray( int arr[], int start, int end){
 
-    while(s<e){
+    while(start<end){
 
-        int temp= arr[s];
-        arr[s]=arr[e];
-        arr[e]=temp;
+        int temp= arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
 
-        s++;
-        e--;
+        start++;
+        end--;
     }
 
 }
