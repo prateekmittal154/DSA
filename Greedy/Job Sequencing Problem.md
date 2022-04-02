@@ -15,3 +15,32 @@
 EXAMPLE: 
 
 ![image](https://user-images.githubusercontent.com/80255503/161373277-07e50337-3ca0-4ca9-9c4b-fe2023bf483e.png)
+
+
+EXPLANATION:
+
+From the example it can be observed that we can complete at most 2 jobs out of the given two jobs. ( Each job takes 1 day and the maximum deadline is 2)
+
+{J1, J2} cannot be an answer but {J2, J1} can be ---> Profit = 110
+
+{J4, J1} can be a solution with a profit of 127
+
+{J1} with a pofit of 100 can also be executed 
+
+_The designed algorithm should give us the maximum profit value_
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+<b> <center> ALGORITHM FOR JOB SEQUENCING : </center> </b>
+
+STEP 1 --> Sort the jobs in the decreasing order of their profit values
+STEP 2 --> Place each job at latest time that meets its deadline
+
+Number of slots = MIN( n , MAX(di))
+
+Where, 
+
+n => Total Number of Jobs
+di => Deadline of the ith Job
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
