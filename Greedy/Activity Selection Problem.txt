@@ -1,5 +1,4 @@
-<h1> <center> ACTIVITY SELECTION PROBLEM </center> </h1>
-
+                                                ACTIVITY SELECTION PROBLEM 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 *Problem Statement*
