@@ -33,8 +33,8 @@ _The designed algorithm should give us the maximum profit value_
 
 <b> <center> ALGORITHM FOR JOB SEQUENCING : </center> </b>
 
-1 --> Sort the jobs in the decreasing order of their profit values
-2 --> Place each job at latest time that meets its deadline
+1. Sort the jobs in the decreasing order of their profit values
+2. Place each job at latest time that meets its deadline
 
 Number of slots = MIN( n , MAX(di))
 
@@ -44,3 +44,17 @@ Where,
 2. di => Deadline of the ith Job
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+PSEUDO CODE: 
+
+![image](https://user-images.githubusercontent.com/80255503/161375736-640a71d7-9103-4729-8989-5e81b95739c1.png)
+
+ 
+ 
+
+
+
+
+
+
+
+
