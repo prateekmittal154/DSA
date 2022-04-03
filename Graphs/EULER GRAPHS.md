@@ -42,7 +42,7 @@ Trail that begins and ends on the same vertex
 
 ---------------------------------------------------------------------------
 
-## ALGORITHMS TO IDENTIFY A EULER GRAPH & THE PATH TO BE FOLOWED 
+## ALGORITHMS TO IDENTIFY A EULER GRAPH & THE PATH TO BE FOLLOWED 
 
 #### FLEURY'S ALGORITHM 
 
