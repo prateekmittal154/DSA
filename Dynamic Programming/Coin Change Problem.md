@@ -23,10 +23,16 @@
 
 -----------------------
 
+
 ## EXAMPLE 
 
 1. coins[] = {1, 2, 3}
 2. sum = 4
 
 
+The below table stores the total number of ways to achieve a target sum for a given number of coins.
+
 ![image](https://user-images.githubusercontent.com/80255503/161480635-8a301b11-e9eb-4ca9-aa6c-56c353a887b0.png)
+
+
+----------------------
