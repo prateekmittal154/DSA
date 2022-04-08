@@ -8,8 +8,12 @@
 ![image](https://user-images.githubusercontent.com/80255503/162456850-29abd3df-7a3b-476e-8f53-66f2122240b3.png)
 
 
-The solution of the given recuurence relation
+The recuurence relation would be:
 
-' T(n) = 2T(n/2) + O(n) '
+
+
+T(n) = 2T(n/2) + O(n)
+
+
 
 The solution of the above recurrence is **O(nLogn)**
