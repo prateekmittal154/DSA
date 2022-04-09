@@ -48,3 +48,8 @@ for i in range(0,n):
     
     print(arr[i])
 ```
+
+The Best case Time Complexity is - O(nlogn)
+The worst case Time Complexity is - O(n^2)
+
+--------
