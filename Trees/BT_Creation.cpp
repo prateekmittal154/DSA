@@ -27,6 +27,19 @@ node* buildtree(){
 
 	cin>>data
 
+	root = new Node(data);
+
+	if (data==-1) return NULL;
+
+
+	cout<<"Enter data for inserting in left of "<<data<<endl;
+	root->left = buildtree(root->left);
+
+	cout<<"Enter the data for inserting in right of "<< data<<endl;
+	root->right = buildtree(root->right);
+
+	return root;
+
 
 }
 
